@@ -47,6 +47,7 @@ public class ForgetPasswordPageTest extends TestBase{
 		String messageString = MessageString.getText();
 		String actualMessage= "please, enter a valid email";
 		Assert.assertEquals(actualMessage, messageString);
+		// ................
 		
 	}
 
